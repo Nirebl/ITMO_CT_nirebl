@@ -9,7 +9,5 @@
 # C++ Morozov 2 Semester
 - [C++](cpp)
 -----------------------------------------------------
-# Web Mirzayanov 3 semester (incomplete)
-# the course was 100% completed
-I'll add something new in a while :)
+# Web Mirzayanov 3 semester (incomplete in git, but the course was 100% completed I'll add something new in a while :))
 -----------------------------------------------------
