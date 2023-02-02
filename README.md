@@ -12,4 +12,4 @@
 # Web Mirzayanov 3 semester (incomplete in git, but the course was 100% completed I'll add something new in a while :))
 - [Web Vue & other's](Web)
 -----------------------------------------------------
-# currently in academic vacation
+# currently in academic vacation Zzzzz....
