@@ -10,5 +10,5 @@
 - [C++](cpp)
 -----------------------------------------------------
 # Web Mirzayanov 3 semester (incomplete in git, but the course was 100% completed I'll add something new in a while :))
-- [WEB](web)
+- [Web Vue && other's](Web)
 -----------------------------------------------------
