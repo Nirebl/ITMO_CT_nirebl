@@ -7,10 +7,9 @@
 - [semester 2](Java/sem2)
 -----------------------------------------------------
 # C++ Morozov 2 Semester
--[C++](cpp)
+- [C++](cpp)
 -----------------------------------------------------
 # Web Mirzayanov 3 semester (incomplete)
 # the course was 100% completed
------------------------------------------------------
 I'll add something new in a while :)
 -----------------------------------------------------
