@@ -1,0 +1,140 @@
+/* article */
+.article-box {
+    border: 1px solid var(--border-color);
+    border-top-right-radius: var(--border-radius);
+    border-top-left-radius: var(--border-radius);
+    width: auto;
+    margin: 0 auto;
+}
+
+.article-box .header {
+    border-bottom: 1px solid var(--border-color);
+    color: var(--caption-color);
+    font-weight: bold;
+    padding: 0.25rem 0.5rem;
+}
+
+.article-box .field {
+    margin: 1.5rem 1rem;
+    overflow: hidden;
+}
+
+.article-box .field .name {
+    text-align: left;
+    padding-right: 1rem;
+}
+
+.article-box .field .value {
+    width: 30rem;
+    padding-right: 1rem;
+}
+
+.article-box .field input {
+    width: 100%;
+}
+
+.article-box .field .text-value {
+    padding-right: 0.5rem;
+}
+
+.article-box .field textarea {
+    width: 100%;
+}
+
+.article-box .button-field {
+    margin: 1.5rem 1.5rem 1.5rem 1.5rem;
+    text-align: center;
+}
+
+.article-box .button-field input {
+    padding: 0.1rem 1.5rem;
+}
+
+.article-box .error {
+    color: var(--error-color);
+    font-size: 0.75rem;
+    text-align: center;
+}
+
+main article {
+    margin:0 0 2em 0;
+}
+
+main article .title {
+    color: #3b5998;
+    font-weight: bold;
+    font-size: larger;
+}
+
+main article .information {
+    color: #6E6E6E;
+    font-size: 0.86em;
+    padding-top: 0.2em;
+}
+
+main article .body {
+    position: relative;
+    margin: 1em 0;
+    padding-left: 1em;
+    border-left: 4px solid #B9B9B9;
+    font-size: 0.9em;
+}
+
+main article ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+main article p:last-child {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+main article ul li {
+    line-height: 1.1rem;
+    padding-bottom: 0.5em;
+    color: #6E6E6E;
+    font-size: 0.75em;
+    padding: 0 0.35em 0em 1.65em;
+    background: url("./../img/paperclip-16x16.png") no-repeat;
+}
+
+main article .footer {
+    position: relative;
+    margin-top: 1rem;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    height: 2.5em;
+    vertical-align: middle;
+}
+
+main article .footer .left {
+    display: flex;
+    justify-content: center;
+    float: left;
+    position: absolute;
+    top: 0.45em;
+    left: 1em;
+}
+
+main article .footer .right {
+    display: flex;
+    justify-content: center;
+    float: right;
+    position: absolute;
+    top: 0.85em;
+    right: 1em;
+    font-size: 0.8rem;
+}
+
+main article .footer .right img {
+    margin: 0px 5px 0px 5px;
+}
+
+main article .footer .left .positive-score{
+    color: green;
+    font-size: larger;
+    font-weight: bold;
+    margin: 0 5px;
+}

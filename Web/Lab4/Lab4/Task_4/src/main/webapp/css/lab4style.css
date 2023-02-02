@@ -1,0 +1,168 @@
+:root {
+    --border-color: #B9B9B9;
+    --border-radius: 6px;
+    --black-color: #333;
+    --caption-color: #3B5998;
+    --gray-color: #E1E1E1;
+    --light-border-color: var(--gray-color);
+    color: var(--black-color);
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+}
+
+.selected-user .user-info {
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    min-height: calc(128px + 1.6rem);
+}
+
+.selected-user .user-info .user-detail {
+    padding-top: 0.6rem;
+    display: inline-block;
+    padding-left: 1rem;
+}
+
+.selected-user .user-info .user-detail a {
+    font-size: 1.5rem;
+}
+
+.selected-user .user-info .user-photo {
+    padding-top: 0.7rem;
+    float: right;
+}
+
+.selected-user .user-scrolling {
+    font-size: 2.4rem;
+    color: var(--border-color);
+}
+
+.selected-user .user-scrolling a {
+    color: var(--caption-color);
+    text-decoration: none;
+}
+
+.selected-user .user-scrolling a:visited {
+    color: var(--caption-color);
+    text-decoration: none;
+}
+
+.marked-tab-name {
+    border-bottom: 2px solid var(--caption-color)
+}
+
+main .datatable .caption {
+    background-color: var(--gray-color);
+    padding: 3px 1px 4px 6px;
+    border-top: 2px solid var(--gray-color);
+    border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
+    font-family: "Arial Narrow", sans-serif;
+    font-size: 0.9em;
+}
+
+main .datatable table {
+    border: 1px solid var(--gray-color);
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 100%;
+    position: relative;
+    font-family: "Arial Narrow", sans-serif;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+main .datatable table td, th {
+    border-top: 1px solid var(--gray-color);
+    border-right: 1px solid var(--gray-color);
+    padding: 0.4em;
+}
+
+main .datatable table tbody tr:nth-child(2n-1) {
+    background-color: #F8F8F8;
+}
+
+
+main article {
+    margin:0 0 2rem 0;
+}
+
+main article .title {
+    color: #3b5998;
+    font-weight: bold;
+    font-size: larger;
+}
+
+main article .information {
+    color: #6E6E6E;
+    font-size: 0.86em;
+    padding-top: 0.2em;
+}
+
+main article .body {
+    position: relative;
+    margin: 1em 0;
+    padding-left: 1em;
+    border-left: 4px solid #B9B9B9;
+    font-size: 0.9em;
+}
+
+main article ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+main article p:last-child {
+/*    padding-bottom: 0px;
+    margin-bottom: 0px;*/
+}
+
+main article ul li {
+    line-height: 1.1rem;
+    padding-bottom: 0.5rem;
+    color: #6E6E6E;
+    font-size: 0.75em;
+  /*  padding: 0 0.35rem 0rem 1.65rem;*/
+    background: url("/img/paperclip-16x16.png") no-repeat;
+}
+
+main article .footer {
+    position: relative;
+    margin-top: 1rem;
+    border: 1px solid var(--gray-color);
+    border-radius: 5px;
+    height: 2.5em;
+    vertical-align: middle;
+}
+
+main article .footer .left {
+    display: flex;
+    justify-content: center;
+    float: left;
+    position: absolute;
+    top: 0.45em;
+    left: 1em;
+}
+
+main article .footer .right {
+    display: flex;
+    justify-content: center;
+    float: right;
+    position: absolute;
+    top: 0.85em;
+    right: 1em;
+    font-size: 0.8rem;
+}
+
+main article .footer .right img {
+    margin-left: 1rem;
+    margin-right: 1rem;
+/*    margin: 0px 5px 0px 5px;*/
+}
+
+main article .footer .left .positive-score{
+    color: green;
+    font-size: larger;
+    font-weight: bold;
+    margin: 0 5px;
+}
