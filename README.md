@@ -1,7 +1,7 @@
 # ITMO_CT_nirebl
-# some programmer things that i made while i was studying in ITMO M3137 & M3237
+# some programmer things that i made while i was studying in ITMO M3137 & M3237 & M3?32
 -----------------------------------------------------
-# Java contains 1 & 2 semesters
+# Java contains all semesters
 
 - [semester 1](Java/sem1)
 - [semester 2](Java/sem2)
