@@ -13,4 +13,5 @@
 # Web Mirzayanov 3 semester (incomplete in git, but the course was 100% completed I'll add something new in a while :))
 - [Web Vue & other's](Web)
 -----------------------------------------------------
-
+# differential equations 3 semester
+- [Lab](https://github.com/Nirebl/DE_ITMO/) 
