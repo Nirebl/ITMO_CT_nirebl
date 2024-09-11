@@ -14,4 +14,7 @@
 - [Web Vue & other's](Web)
 -----------------------------------------------------
 # differential equations 3 semester
-- [Lab](https://github.com/Nirebl/DE_ITMO/) 
+- [Lab](https://github.com/Nirebl/DE_ITMO/)
+
+# Golang SHAD 3 semester
+- [tasks](https://github.com/Nirebl/Shad_Golang_Course)
