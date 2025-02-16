@@ -19,5 +19,5 @@
 # Golang SHAD 3 semester
 - [tasks](https://github.com/Nirebl/Shad_Golang_Course)
 
-#Data analisys 5 semester
+# Data analisys 5 semester
 - [codeforces contest](DataAnalisys_codeforces)
